@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LasiesVPN</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="navbar">
+                <nav>
+                    <div class="logo">
+                        <img src="./imgs/Standard Collection 27.png" alt="Logo">&nbsp; LaslesVPN
+                    </div>
+                    <ul class="links rwdLinks">
+                        <li>
+                            <a href="#">About</a>                            
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Testimonaly</a>
+                        </li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                    <div class="right">
+                        <div class="auth">
+                            <button>Sign In</button>
+                            <button>Sign Up</button>
+                        </div>
+                        <div class="menu">
+                            <button id="menu"><i class="fa fa-navicon"></i></button>
+                            <ul class="links">
+                                <li>
+                                    <button id="closeLinks"><i class="fa fa-remove"></i></button>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>                            
+                                </li>
+                                <li>
+                                    <a href="#">Features</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="#">Testimonaly</a>
+                                </li>
+                                <li><a href="#">Help</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <main>
+                <section class="one">
+                    <div class="col">
+                        <h2>Want anything to be easy with LaslesVPN</h2>
+                        <p>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us</p>
+                        <button>Get started</button>
+                    </div>
+                    <div class="col">
+                        <img src="./imgs/hero-img.png" alt="">
+                    </div>
+                </section>
+                <section class="two">
+                    <div class="col">
+                        <i class="fa fa-user"></i>
+                        <p>
+                            <strong>90+</strong>
+                            <span>Users</span>
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class="fa fa-location-arrow"></i>
+                        <p>
+                            <strong>30+</strong>
+                            <span>Locations</span>
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class="fa fa-server"></i>
+                        <p>
+                            <strong>50+</strong>
+                            <span>Servers</span>
+                        </p>
+                    </div>
+                </section>
+                <section class="one three">
+                    <div class="col">
+                        <h2>We Provide Many Features You Can Use</h2>
+                        <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
+                        <ul>
+                            <li>
+                                <div class="bx"></div> Powerfull online protection.
+                            </li>
+                            <li>
+                                <div class="bx"></div> Internet without borders.
+                            </li>
+                            <li>
+                                <div class="bx"></div> Supercharged VPN
+                            </li>
+                            <li>
+                                <div class="bx"></div> No specific time limits.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <img src="./imgs/provide-img.png" alt="">
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("menu").addEventListener("click", function () {
+            const box = document.querySelector(".menu .links");
+            box.style.right = 0
+        });
+        document.getElementById("closeLinks").addEventListener("click", function () {
+            const box = document.querySelector(".menu .links");
+            box.style.right = "-350px"
+        });
+    </script>
+</body>
+</html>

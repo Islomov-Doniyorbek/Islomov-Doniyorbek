@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.9s ease;
+}
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.wrapper  {
+    position: relative;
+    width: 100%;
+    padding: 0 30px;
+}
+.wrapper .header header{
+    position: relative;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 10px;
+
+}
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+}
+.navbar nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+nav .links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    position: relative;
+}
+.links li {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+li:hover a {
+    color: orange;
+}
+nav .auth {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+nav .menu {
+    position: relative;
+    display: none;
+}
+.menu button {
+    width: 30px;
+    padding: 14px;
+    height: 30px;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    color: orangered;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu button:hover {
+    border-color: orangered;
+}
+nav .menu .links {
+    width: 320px;
+    top: 0;
+    display: flex;
+    right: -350px;
+    flex-direction: column;
+    position: absolute;
+    background: rgb(255, 254, 254);
+    justify-content: center;
+    padding: 10px 0 10px 10px;
+    z-index: 5;
+    border: 2px outset azure;
+}
+.menu button:active > .links {
+    left: 0;
+}
+.menu .links li {
+    border-bottom: 2px solid white;
+}
+.menu .links li:hover {
+    border-color: orangered;
+}
+.right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.auth button {
+    position: relative;
+    background: none;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.auth button:hover {
+    border-color: orange;
+}
+.auth button:focus {
+    border-color: orange;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    padding: 50px 0;
+}
+main section {
+    position: relative;
+    min-height: 400px;
+    margin: 10px 0;
+}
+section.one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+section.one .col:last-child {
+    display: flex;
+    justify-content: center;
+}
+section.one .col img {
+    width: 90%;
+    position: relative;
+}
+section.one .col h2 {
+    font-size: 4rem;
+    margin: 14px 0;
+}
+section.one .col p {
+    margin: 14px 0;
+    padding-right: 10px;
+    font-size: 1.6rem;
+}
+section.one .col button {
+    margin: 14px 0;
+    width: 300px;
+    padding: 8px 20px;
+    background-color: orangered;
+    border-radius: 4px;
+    border: 2px solid orangered;
+    font-size: 1.6rem;
+    color: azure;
+}
+section.one .col button:hover {
+    background: transparent;
+    color: orangered;
+}
+
+
+section.two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    background: snow;
+    align-items: center;
+}
+section.two .col {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid silver;
+    height: 100px;
+}
+section.two .col:first-child {
+    border: none;
+}
+section.two .col i {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    color: #f53838;
+    background: #ffecec;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.two .col p {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}section.two p strong {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+section.three .col:first-child{
+    order: 2;
+}
+section.three .col .bx {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: green;
+    position: relative;
+}
+section.three .col .bx::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    background: white;
+    top: 12px;
+    left: 6px;
+    transform: rotate(45deg);
+}
+section.three .col .bx::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 3px;
+    background: white;
+    top: 11.5px;
+    left: 9px;
+    transform: rotate(-45deg);
+}
+section.three .col li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+section.three ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 786px){
+    nav .rwdLinks {
+        display: none;
+    }
+    nav .menu {
+        display: block;
+    }
+    section.one {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    section.one .col h2 {
+        font-size: 2rem;
+    }
+    section.one .col p {
+        font-size: 1.3rem;
+        padding-right: 10px;
+    }
+    .auth {
+        gap: 2px;
+    }
+    .auth button {
+        padding: 4px 10px;
+    }
+
+    section.two {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    section.two .col {
+        border: none;
+        border-bottom: 1px solid silver;
+    }
+    section.two .col:first-child {
+        border: none;
+        border-bottom: 1px solid silver;
+    }
+    section.two .col:last-child {
+        border: none;
+    }
+}
