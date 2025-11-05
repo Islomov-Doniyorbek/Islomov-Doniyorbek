@@ -1,5 +1,9 @@
-## 📊 GitHub Stats (From the Beginning)
-
+## 📊 GitHub Stats 
+<p align="left">
+  <a href="https://github-readme-stats.vercel.app/api?username=Islomov-Doniyorbek&show_icons=true&count_private=true&include_all_commits=true&theme=react">
+    <img alt="Doniyorbek's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Islomov-Doniyorbek&show_icons=true&count_private=true&include_all_commits=true&theme=react"/>
+  </a>
+</p>
 <span align="center">
   <a href="https://github-readme-stats.vercel.app/api?username=Islomov-Doniyorbek&show_icons=true&count_private=true&include_all_commits=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866">
     <img alt="Doniyorbek's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Islomov-Doniyorbek&show_icons=true&count_private=true&include_all_commits=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866"/>
