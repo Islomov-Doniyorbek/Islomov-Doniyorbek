@@ -34,5 +34,5 @@
 
 <!-- Carousel (animated marquee) -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nodejs,angular,redux,tailwind,nextjs,postgresql&perline=12" alt="skills"/>
+  <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nextjs,nodejs,angular,ngrx,redux,tailwind,postgresql&perline=12" alt="skills"/>
 </p>
