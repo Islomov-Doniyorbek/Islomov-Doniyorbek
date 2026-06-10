@@ -34,5 +34,11 @@
 
 <!-- Carousel (animated marquee) -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nextjs,nodejs,angular,ngrx,redux,tailwind,postgresql&perline=12" alt="skills"/>
+  <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nextjs,nodejs,angular,tailwind,postgresql&perline=12" alt="skills"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NgRx-State%20Management-BA2BD2?style=flat-square" alt="NgRx"/>
+  <img src="https://img.shields.io/badge/Zustand-State%20Management-443E38?style=flat-square" alt="Zustand"/>
+  <img src="https://img.shields.io/badge/Axios-HTTP%20Client-5A29E4?style=flat-square" alt="Axios"/>
 </p>
